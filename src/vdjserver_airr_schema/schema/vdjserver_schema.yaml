@@ -1,0 +1,1344 @@
+---
+
+id: https://github.com/vdjserver/vdjserver-airr-schema
+
+name: vdjserver-airr-schema
+
+title: VDJServer Schema
+
+description: LinkML representation of Schema definitions for VDJServer standards objects.
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+
+default_range: string
+
+imports:
+  - linkml:types
+  - airr_schema
+
+classes:
+  AIRRStandards:
+    abstract: true
+    description: An object directly converted from the AIRR schema.
+  VDJServerStandards:
+    abstract: true
+    description: An object directly converted from the VDJServer schema.
+  CommonExtension:
+    is_a: VDJServerStandards
+    description: VDJServer common extension properties
+    slots:
+      - vdjserver_uuid
+      - version
+  PermissionDetails:
+    description: Default PermissionDetails description
+    slots:
+      - read
+      - write
+  ProjectPermission:
+    is_a: VDJServerStandards
+    description: User permissions on project and its associated objects
+    slots:
+      - username
+      - permission
+  StudyDetails:
+    description: Default StudyDetails description
+    slots:
+      - vdjserver_uuid
+  SubjectDetails:
+    description: Default SubjectDetails description
+    slots:
+      - vdjserver_uuid
+  Repertoire:
+    is_a: VDJServerStandards
+    description: VDJServer normal-form version of the AIRR Repertoire object.
+    slots:
+      - repertoire_id
+      - repertoire_name
+      - repertoire_description
+      - study
+      - subject
+      - sample
+      - data_processing
+    slot_usage:
+      study:
+        required: true
+      subject:
+        required: true
+      sample:
+        required: true
+      data_processing:
+        required: true
+  DataFileExtension:
+    is_a: VDJServerStandards
+    description: Default DataFileExtension description
+    slots: []
+  TapisMetaObject:
+    is_a: VDJServerStandards
+    description: Tapis Meta API object.
+    slots:
+      - uuid
+      - associationIds
+      - owner
+      - created
+      - lastUpdated
+      - name
+    slot_usage:
+      uuid:
+        required: true
+      name:
+        required: true
+  UserAccount:
+    is_a: VDJServerStandards
+    description: User account and profile.
+    slots:
+      - username
+      - password
+      - email
+      - isEmailVerified
+      - firstName
+      - lastName
+      - city
+      - state
+      - country
+      - affiliation
+      - disableJobEmail
+      - disableUserEmail
+      - disablePublishEmail
+      - showArchivedProjects
+    slot_usage:
+      username:
+        required: true
+      password:
+        required: true
+      email:
+        required: true
+  UserVerification:
+    is_a: VDJServerStandards
+    description: User account verification.
+    slots:
+      - username
+      - isVerified
+    slot_usage:
+      username:
+        required: true
+      isVerified:
+        required: true
+  Feedback:
+    is_a: VDJServerStandards
+    description: User feedback.
+    slots:
+      - feedbackMessage
+      - username
+      - email
+    slot_usage:
+      feedbackMessage:
+        required: true
+  ProjectFile:
+    is_a: VDJServerStandards
+    description: VDJServer project files.
+    slots:
+      - path
+      - name
+      - size
+      - readDirection
+      - fileType
+      - tags
+      - url
+      - pairedReadMetadataUuid
+      - readMetadataUuid
+      - qualityScoreMetadataUuid
+    slot_usage:
+      path:
+        required: true
+  ProjectJob:
+    is_a: VDJServerStandards
+    description: Job information associated with a VDJServer project.
+    slots:
+      - projectUuid
+      - jobUuid
+      - displayName
+      - secondaryInputs
+    slot_usage:
+      projectUuid:
+        required: true
+      jobUuid:
+        required: true
+  ADCRepository:
+    is_a: VDJServerStandards
+    description: VDJServer object to represent an ADC repository, this includes VDJServer.
+    slots:
+      - repository_id
+      - disable
+      - title
+      - server_host
+      - base_url
+      - enable_cache
+      - supports_async
+      - async_host
+      - async_base_url
+      - enable_statistics_cache
+    slot_usage:
+      repository_id:
+        required: true
+      title:
+        required: true
+      server_host:
+        required: true
+      base_url:
+        required: true
+  ADCRepositorySet:
+    is_a: VDJServerStandards
+    description: Set of ADC repositories.
+    slots:
+      - adc
+      - staging
+    slot_usage:
+      adc:
+        required: true
+  NotificationDetails:
+    description: Query status notification URL
+    slots:
+      - url
+      - method
+  BodyDetails:
+    slots: []
+  ADCAsyncQuery:
+    is_a: VDJServerStandards
+    description: VDJServer object to represent an ADC asynchronous query.
+    slots:
+      - endpoint
+      - collection
+      - lrq_id
+      - status
+      - message
+      - notification
+      - body
+      - raw_file
+      - final_file
+      - download_url
+      - postit_id
+      - count_lrq_id
+      - estimated_count
+    slot_usage:
+      endpoint:
+        required: true
+      collection:
+        required: true
+      status:
+        required: true
+      body:
+        required: true
+  ADCQueryFilter:
+    is_a: VDJServerStandards
+    description: Query Filter Expression for the ADC API.
+    slots:
+      - body
+  ADCProjectLoad:
+    is_a: VDJServerStandards
+    description: ADC project load.
+    slots:
+      - projectUuid
+      - collection
+      - shouldLoad
+      - isLoaded
+      - repertoireMetadataLoaded
+      - rearrangementDataLoaded
+    slot_usage:
+      projectUuid:
+        required: true
+      collection:
+        required: true
+  ADCRearrangementLoad:
+    is_a: VDJServerStandards
+    description: ADC rearrangement load.
+    slots:
+      - projectUuid
+      - repertoire_id
+      - collection
+      - isLoaded
+      - load_set
+    slot_usage:
+      projectUuid:
+        required: true
+      repertoire_id:
+        required: true
+      collection:
+        required: true
+  ADCDownloadCache:
+    is_a: VDJServerStandards
+    description: ADC download cache status.
+    slots:
+      - enable_cache
+    slot_usage:
+      enable_cache:
+        required: true
+  ADCDownloadCacheStudy:
+    is_a: VDJServerStandards
+    description: ADC download cache status for a study in a repository
+    slots:
+      - repository_id
+      - study_id
+      - should_cache
+      - is_cached
+      - archive_file
+      - download_url
+    slot_usage:
+      repository_id:
+        required: true
+      study_id:
+        required: true
+  ADCDownloadCacheRepertoire:
+    is_a: VDJServerStandards
+    description: ADC download cache status for a repertoire within a study
+    slots:
+      - repository_id
+      - study_id
+      - repertoire_id
+      - should_cache
+      - is_cached
+      - archive_file
+      - download_url
+    slot_usage:
+      repository_id:
+        required: true
+      study_id:
+        required: true
+      repertoire_id:
+        required: true
+  StatisticsCache:
+    is_a: VDJServerStandards
+    description: Statistics cache status.
+    slots:
+      - enable_cache
+      - jobs_submitted
+    slot_usage:
+      enable_cache:
+        required: true
+      jobs_submitted:
+        required: true
+  StatisticsCacheStudy:
+    is_a: VDJServerStandards
+    description: Statistics cache status for a study in a repository
+    slots:
+      - repository_id
+      - study_id
+      - download_cache_id
+      - should_cache
+      - is_cached
+    slot_usage:
+      repository_id:
+        required: true
+      study_id:
+        required: true
+      download_cache_id:
+        required: true
+  StatisticsCacheRepertoire:
+    is_a: VDJServerStandards
+    description: Statistics cache status for a repertoire within a study
+    slots:
+      - repository_id
+      - study_id
+      - repertoire_id
+      - download_cache_id
+      - should_cache
+      - is_cached
+      - statistics_job_id
+      - timeMultiplier
+    slot_usage:
+      repository_id:
+        required: true
+      study_id:
+        required: true
+      repertoire_id:
+        required: true
+      download_cache_id:
+        required: true
+  ProvDocument:
+    is_a: VDJServerStandards
+    description: PROV document
+    slots:
+      - entity
+      - agent
+      - activity
+      - used
+      - wasAttributedTo
+      - wasAssociatedWith
+      - wasDerivedFrom
+      - wasGeneratedBy
+  TaskDocument:
+    is_a: VDJServerStandards
+    description: Task document
+    slots:
+      - uses
+      - isAttributedTo
+      - isAssociatedWith
+      - isDerivedFrom
+      - isGeneratedBy
+  AnalysisProperties:
+    is_a: VDJServerStandards
+    description: Analysis Properties
+    slots:
+      - workflow_name
+      - workflow_mode
+      - workflow_description
+      - status
+      - status_message
+      - primary
+    slot_usage:
+      status:
+        range: AnalysisPropertiesStatusEnum
+  VisualizationDocument:
+    is_a: VDJServerStandards
+    description: Task document
+    slots:
+      - name
+      - repertoire_id
+      - repertoire_group_id
+      - processing_stage
+    slot_usage:
+      name:
+        range: VisualizationDocumentNameEnum
+  BasicResponse:
+    is_a: VDJServerStandards
+    description: Basic response object
+    slots:
+      - status
+      - message
+    slot_usage:
+      status:
+        range: boolean
+  Recaptcha:
+    is_a: VDJServerStandards
+    description: Google recaptcha response.
+    slots:
+      - g-recaptcha-response
+    slot_usage:
+      g-recaptcha-response:
+        required: true
+  FilePostitRequest:
+    is_a: VDJServerStandards
+    description: Postit request for file
+    slots:
+      - path
+      - allowedUses
+      - validSeconds
+    slot_usage:
+      path:
+        required: true
+  FeedbackRequest:
+    is_a: VDJServerStandards
+    description: Feedback message.
+    slots:
+      - feedback
+  VisualizationRequest:
+    is_a: VDJServerStandards
+    description: Request generation of data visualization
+    slots:
+      - visualization
+    slot_usage:
+      visualization:
+        required: true
+  ADCRepositoryUpdateRequest:
+    is_a: VDJServerStandards
+    description: API request object
+    slots:
+      - repository_set
+      - repository
+    slot_usage:
+      repository_set:
+        required: true
+      repository:
+        required: true
+  StudyExtension:
+    is_a: CommonExtension
+    description: Default StudyExtension description
+    slots:
+      - owner
+      - keywords
+  Study:
+    is_a: AIRRStandards
+    description: VDJServer Study which is an extension of the AIRR Study object.
+    slots:
+      - vdjserver
+  ProjectExtension:
+    is_a: StudyExtension
+    description: Default ProjectExtension description
+    slots:
+      - showArchivedJobs
+  Project:
+    is_a: AIRRStandards
+    description: VDJServer project which is an extension of the VDJServer Study object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: ProjectExtension
+  RepertoireExtension:
+    is_a: CommonExtension
+    description: Default RepertoireExtension description
+    slots:
+      - owner
+  AIRRRepertoire:
+    is_a: AIRRStandards
+    description: VDJServer extension of the AIRR Repertoire object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: CommonExtension
+  RepertoireGroup:
+    is_a: AIRRStandards
+    description: VDJServer extension of the AIRR RepertoireGroup object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: CommonExtension
+  Subject:
+    is_a: AIRRStandards
+    description: VDJServer extension of the AIRR Subject object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: CommonExtension
+  SampleProcessing:
+    is_a: AIRRStandards
+    description: VDJServer extension of the AIRR SampleProcessing object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: CommonExtension
+  DataProcessing:
+    is_a: AIRRStandards
+    description: VDJServer extension of the AIRR DataProcessing object.
+    slots:
+      - vdjserver
+    slot_usage:
+      vdjserver:
+        range: CommonExtension
+  DataFile:
+    is_a: AIRRStandards
+    description: VDJServer DataFile which is an extension of the AIRR DataFile object.
+    slots:
+      - VDJServer
+  UserAccountMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer user account.
+    slots:
+      - value
+  UserVerificationMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer user verification.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: UserVerification
+  FeedbackMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for VDJServer user feedback.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: Feedback
+  PrivateProjectMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer private project.
+    slots:
+      - value
+      - permission
+    slot_usage:
+      value:
+        range: Project
+      permission:
+        range: ProjectPermission
+  ArchivedProjectMeta:
+    is_a: PrivateProjectMeta
+    description: Tapis Meta object for a VDJServer archived project.
+    slots: []
+  PublicProjectMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer public project.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: Project
+  RepertoireMeta:
+    is_a: TapisMetaObject
+    description: VDJServer Repertoire in normal form, just vdjserver uuids link them
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: Repertoire
+  RepertoireGroupMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer repertoire group
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: RepertoireGroup
+  SubjectMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer subject.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: Subject
+  SampleProcessingMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer sample processing.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: SampleProcessing
+  DataProcessingMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer data processing.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: DataProcessing
+  ProjectFileMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer project file.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ProjectFile
+  DeletedFileMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer deleted project file.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ProjectFile
+  ProjectJobFile:
+    is_a: ProjectFile
+    description: VDJServer files generated from jobs.
+    slots:
+      - project_uuid
+      - analysis_uuid
+      - job_uuid
+    slot_usage: {}
+  ProjectJobFileMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer project job file.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ProjectJobFile
+  ProjectJobMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer project job.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ProjectJob
+  ADCRepositorySetMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCRepositorySet
+  ADCAsyncQueryMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCAsyncQuery
+  ADCProjectLoadMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCProjectLoad
+  ADCRearrangementLoadMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCRearrangementLoad
+  ADCDownloadCacheMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCDownloadCache
+  ADCDownloadCacheStudyMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCDownloadCacheStudy
+  ADCDownloadCacheRepertoireMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: ADCDownloadCacheRepertoire
+  StatisticsCacheMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: StatisticsCache
+  StatisticsCacheStudyMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: StatisticsCacheStudy
+  StatisticsCacheRepertoireMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: StatisticsCacheRepertoire
+  AnalysisDocument:
+    is_a: AnalysisProperties
+    description: Analysis workflow document
+    slots: []
+  AnalysisDocumentMeta:
+    is_a: TapisMetaObject
+    description: Tapis Meta object for a VDJServer analysis document.
+    slots:
+      - value
+    slot_usage:
+      value:
+        range: AnalysisDocument
+  AnalysisRequest:
+    is_a: AnalysisDocument
+    description: Request execution of an analysis workflow
+    slots: []
+
+slots:
+  vdjserver_uuid:
+    name: vdjserver_uuid
+    description: link to object in Tapis Meta
+    range: string
+    annotations:
+      nullable: true
+  version:
+    name: version
+    description: Timestamp of the object
+    range: string
+    annotations:
+      nullable: true
+  username:
+    name: username
+    description: Default slot description
+    range: string
+  read:
+    name: read
+    description: read permission
+    range: boolean
+  write:
+    name: write
+    description: write permission
+    range: boolean
+  permission:
+    name: permission
+    description: Default slot description
+    range: PermissionDetails
+  repertoire_id:
+    name: repertoire_id
+    range: string
+  repertoire_name:
+    name: repertoire_name
+    description: Short generic display name for the repertoire
+    range: string
+    annotations:
+      nullable: true
+  repertoire_description:
+    name: repertoire_description
+    description: Generic repertoire description
+    range: string
+    annotations:
+      nullable: true
+  study:
+    name: study
+    description: Default slot description
+    range: StudyDetails
+  subject:
+    name: subject
+    description: Default slot description
+    range: SubjectDetails
+  sample:
+    name: sample
+    description: Default slot description
+    multivalued: true
+    annotations:
+      nullable: false
+  data_processing:
+    name: data_processing
+    description: Default slot description
+    multivalued: true
+    annotations:
+      nullable: false
+  uuid:
+    name: uuid
+    description: object identifier
+    range: string
+    annotations:
+      nullable: false
+  associationIds:
+    name: associationIds
+    description: object associations
+    range: string
+    multivalued: true
+    annotations:
+      nullable: true
+  owner:
+    name: owner
+    range: string
+  created:
+    name: created
+    description: object creation timestamp
+    range: datetime
+    annotations:
+      nullable: true
+  lastUpdated:
+    name: lastUpdated
+    description: object last update timestamp
+    range: datetime
+    annotations:
+      nullable: true
+  name:
+    name: name
+    range: string
+  password:
+    name: password
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  email:
+    name: email
+    description: Default slot description
+    range: string
+  isEmailVerified:
+    name: isEmailVerified
+    description: Default slot description
+    range: boolean
+  firstName:
+    name: firstName
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  lastName:
+    name: lastName
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  city:
+    name: city
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  state:
+    name: state
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  country:
+    name: country
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  affiliation:
+    name: affiliation
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  disableJobEmail:
+    name: disableJobEmail
+    description: Default slot description
+    range: boolean
+  disableUserEmail:
+    name: disableUserEmail
+    description: Default slot description
+    range: boolean
+  disablePublishEmail:
+    name: disablePublishEmail
+    description: Default slot description
+    range: boolean
+  showArchivedProjects:
+    name: showArchivedProjects
+    description: Default slot description
+    range: boolean
+  isVerified:
+    name: isVerified
+    description: Default slot description
+    range: boolean
+  feedbackMessage:
+    name: feedbackMessage
+    description: Default slot description
+    range: string
+  path:
+    name: path
+    range: string
+  size:
+    name: size
+    description: Default slot description
+    range: float
+  readDirection:
+    name: readDirection
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  fileType:
+    name: fileType
+    description: Default slot description
+    range: float
+  tags:
+    name: tags
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  url:
+    name: url
+    description: Default slot description
+    range: string
+  pairedReadMetadataUuid:
+    name: pairedReadMetadataUuid
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  readMetadataUuid:
+    name: readMetadataUuid
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  qualityScoreMetadataUuid:
+    name: qualityScoreMetadataUuid
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  projectUuid:
+    name: projectUuid
+    range: string
+  jobUuid:
+    name: jobUuid
+    description: Default slot description
+    range: string
+  displayName:
+    name: displayName
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  secondaryInputs:
+    name: secondaryInputs
+    description: Default slot description
+    range: string
+    annotations:
+      nullable: true
+  repository_id:
+    name: repository_id
+    range: string
+    annotations:
+      nullable: false
+  disable:
+    name: disable
+    description: Disable the repository
+    range: boolean
+  title:
+    name: title
+    description: Display name of repository
+    range: string
+  server_host:
+    name: server_host
+    description: Hostname for repository
+    range: string
+    annotations:
+      nullable: false
+  base_url:
+    name: base_url
+    description: Base ADC URL for repository
+    range: string
+    annotations:
+      nullable: false
+  enable_cache:
+    name: enable_cache
+    range: boolean
+  supports_async:
+    name: supports_async
+    description: Repository supports AIRR ADC ASYNC API extension
+    range: boolean
+  async_host:
+    name: async_host
+    description: Hostname for repository
+    range: string
+  async_base_url:
+    name: async_base_url
+    description: Base ADC ASYNC API URL for repository
+    range: string
+    annotations:
+      nullable: false
+  enable_statistics_cache:
+    name: enable_statistics_cache
+    description: Statistics cache enable/disable for the repository
+    range: boolean
+  adc:
+    name: adc
+    description: List of production repositories. Each entry is keyed by the repository id.
+    range: ADCRepository
+    inlined: true
+    inlined_as_list: true
+  staging:
+    name: staging
+    description: List of staging repositories. Each entry is keyed by the repository id.
+    range: ADCRepository
+    inlined: true
+    inlined_as_list: true
+  endpoint:
+    name: endpoint
+    description: API endpoint for query
+    range: ADCAsyncQueryEndpointEnum
+    annotations:
+      nullable: false
+  collection:
+    name: collection
+    range: string
+    annotations:
+      nullable: false
+  lrq_id:
+    name: lrq_id
+    description: Tapis LRQ identifier
+    range: string
+    annotations:
+      nullable: true
+  status:
+    name: status
+    description: Query status
+    range: ADCAsyncQueryStatusEnum
+  message:
+    name: message
+    range: string
+  method:
+    name: method
+    description: Default slot description
+    range: NotificationDetailsMethodEnum
+    annotations:
+      nullable: false
+  notification:
+    name: notification
+    description: Query status notification URL
+    range: NotificationDetails
+  body:
+    name: body
+    range: BodyDetails
+  raw_file:
+    name: raw_file
+    description: Tapis file containing raw JSON data from LRQ query
+    range: string
+    annotations:
+      nullable: true
+  final_file:
+    name: final_file
+    description: Filename for final processed data to be downloaded by user
+    range: string
+    annotations:
+      nullable: true
+  download_url:
+    name: download_url
+    range: string
+  postit_id:
+    name: postit_id
+    description: Tapis postit identifier for download file
+    range: string
+    annotations:
+      nullable: true
+  count_lrq_id:
+    name: count_lrq_id
+    description: Tapis LRQ identifier for estimated count of query result
+    range: string
+    annotations:
+      nullable: true
+  estimated_count:
+    name: estimated_count
+    description: Estimated count of query result. Used to enforce maximum result size.
+    range: float
+    annotations:
+      nullable: true
+  shouldLoad:
+    name: shouldLoad
+    description: Flag to indicate project should be loaded into ADC.
+    range: boolean
+  isLoaded:
+    name: isLoaded
+    range: boolean
+  repertoireMetadataLoaded:
+    name: repertoireMetadataLoaded
+    description: Flag to indicate if repertoire data has finished loading into ADC.
+    range: boolean
+  rearrangementDataLoaded:
+    name: rearrangementDataLoaded
+    description: Flag to indicate if rearrangement data has finished loading into ADC.
+    range: boolean
+  load_set:
+    name: load_set
+    description: Last rearrangement set that was loaded.
+    range: float
+  study_id:
+    name: study_id
+    description: Study identifier
+    range: string
+    annotations:
+      nullable: false
+  should_cache:
+    name: should_cache
+    range: boolean
+  is_cached:
+    name: is_cached
+    range: boolean
+  archive_file:
+    name: archive_file
+    range: string
+  jobs_submitted:
+    name: jobs_submitted
+    description: Flag indicating if statistics jobs are being run.
+    range: boolean
+  download_cache_id:
+    name: download_cache_id
+    range: string
+    annotations:
+      nullable: false
+  statistics_job_id:
+    name: statistics_job_id
+    description: Tapis jobs identifier for statistics calculation
+    range: string
+  timeMultiplier:
+    name: timeMultiplier
+    description: Estimated run time multiplier for statistics job
+    range: float
+  entity:
+    name: entity
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  agent:
+    name: agent
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  activity:
+    name: activity
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  used:
+    name: used
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  wasAttributedTo:
+    name: wasAttributedTo
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  wasAssociatedWith:
+    name: wasAssociatedWith
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  wasDerivedFrom:
+    name: wasDerivedFrom
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  wasGeneratedBy:
+    name: wasGeneratedBy
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  uses:
+    name: uses
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  isAttributedTo:
+    name: isAttributedTo
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  isAssociatedWith:
+    name: isAssociatedWith
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  isDerivedFrom:
+    name: isDerivedFrom
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  isGeneratedBy:
+    name: isGeneratedBy
+    description: Default slot description
+    inlined: true
+    inlined_as_list: true
+  workflow_name:
+    name: workflow_name
+    description: The workflow analysis name
+    range: string
+  workflow_mode:
+    name: workflow_mode
+    description: The workflow analysis mode
+    range: string
+  workflow_description:
+    name: workflow_description
+    description: The workflow description
+    range: string
+  status_message:
+    name: status_message
+    description: Status message
+    range: string
+  primary:
+    name: primary
+    description: primary analysis for AIRR data processing
+    range: boolean
+  repertoire_group_id:
+    name: repertoire_group_id
+    description: Default slot description
+    range: string
+  processing_stage:
+    name: processing_stage
+    description: Default slot description
+    range: string
+  g-recaptcha-response:
+    name: g-recaptcha-response
+    description: The recaptcha response
+    range: string
+  allowedUses:
+    name: allowedUses
+    description: file path
+    range: float
+  validSeconds:
+    name: validSeconds
+    description: file path
+    range: float
+  feedback:
+    name: feedback
+    description: message content
+    range: string
+  visualization:
+    name: visualization
+    description: Default slot description
+    range: VisualizationDocument
+  repository_set:
+    name: repository_set
+    description: Default slot description
+    range: string
+  repository:
+    name: repository
+    description: Default slot description
+    range: ADCRepository
+  keywords:
+    name: keywords
+    description: VDJServer specific keywords.
+    range: string
+    multivalued: true
+    annotations:
+      nullable: true
+  vdjserver:
+    name: vdjserver
+    description: Default slot description
+    range: StudyExtension
+  showArchivedJobs:
+    name: showArchivedJobs
+    description: Flag for archived jobs.
+    range: boolean
+  VDJServer:
+    name: VDJServer
+    description: Default slot description
+    range: DataFileExtension
+  value:
+    name: value
+    description: Default slot description
+    range: UserAccount
+  project_uuid:
+    name: project_uuid
+    description: Default slot description
+    range: string
+  analysis_uuid:
+    name: analysis_uuid
+    description: Default slot description
+    range: string
+  job_uuid:
+    name: job_uuid
+    description: Default slot description
+    range: string
+
+enums:
+  ADCAsyncQueryEndpointEnum:
+    permissible_values:
+      rearrangement: {}
+  ADCAsyncQueryStatusEnum:
+    permissible_values:
+      PENDING: {}
+      SUBMITTED: {}
+      COUNTING: {}
+      PROCESSING: {}
+      FINISHED: {}
+      ERROR: {}
+      EXPIRED: {}
+  NotificationDetailsMethodEnum:
+    permissible_values:
+      GET: {}
+      POST: {}
+  AnalysisPropertiesStatusEnum:
+    permissible_values:
+      SUBMITTED: {}
+      STARTED: {}
+      FINISHED: {}
+      CANCELLED: {}
+      FAILED: {}
+  VisualizationDocumentNameEnum:
+    permissible_values:
+      heartbeat: {}
+      mutational_hedgehog: {}

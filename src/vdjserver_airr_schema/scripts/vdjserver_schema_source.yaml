@@ -1,0 +1,2142 @@
+#
+# Schema definitions for VDJServer objects
+#
+# VDJServer Analysis Portal
+# VDJServer Schema
+# https://vdjserver.org
+#
+# Copyright (C) 2023 The University of Texas Southwestern Medical Center
+#
+# Author: Scott Christley <scott.christley@utsouthwestern.edu>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+Info:
+    title: VDJServer Schema
+    description: Schema definitions for VDJServer standards objects
+    version: "2.5"
+    contact:
+        name: VDJServer
+        url: https://vdjserver.org
+    license:
+        name: GNU Affero General Public License V3
+        url: https://www.gnu.org/licenses/agpl-3.0.en.html
+        copyright: UT Southwestern Medical Center
+
+###################################################
+#
+# VDJServer extensions for AIRR objects
+#
+# The schema for AIRR standards objects is extended to
+# provide a number of VDJServer common properties. This schema
+# specifies the structure, property names and data types.
+
+CommonExtension:
+  description: VDJServer common extension properties
+  type: object
+  properties:
+    vdjserver_uuid:
+      description: link to object in Tapis Meta
+      type: string
+      nullable: true
+    version:
+      description: Timestamp of the object
+      type: string
+      nullable: true
+
+StudyExtension:
+  type: object
+  allOf:
+    - $ref: '#/CommonExtension'
+    - description: VDJServer extension properties for AIRR Study
+      type: object
+      properties:
+        owner:
+          description: Username that owns the project.
+          type: string
+          nullable: true
+        keywords:
+          description: VDJServer specific keywords.
+          type: array
+          items:
+            type: string
+          nullable: true
+
+Study:
+  description: VDJServer Study which is an extension of the AIRR Study object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/Study'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/Study'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/StudyExtension'
+
+ProjectExtension:
+  type: object
+  allOf:
+    - $ref: '#/StudyExtension'
+    - description: VDJServer extension properties for VDJServer Project
+      type: object
+      properties:
+        showArchivedJobs:
+          description: Flag for archived jobs.
+          type: boolean
+
+ProjectPermission:
+  description: User permissions on project and its associated objects
+  type: object
+  properties:
+    username:
+      type: string
+    permission:
+      type: object
+      properties:
+        read:
+          description: read permission
+          type: boolean
+        write:
+          description: write permission
+          type: boolean
+
+
+Project:
+  description: VDJServer project which is an extension of the VDJServer Study object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/Study'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/Study'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/ProjectExtension'
+
+RepertoireExtension:
+  type: object
+  allOf:
+    - $ref: '#/CommonExtension'
+    - description: VDJServer extension properties for AIRR Repertoire
+      type: object
+      properties:
+        owner:
+          description: Username that owns the project.
+          type: string
+
+Repertoire:
+  description: VDJServer normal-form version of the AIRR Repertoire object.
+  type: object
+  required:
+    - study
+    - subject
+    - sample
+    - data_processing
+  properties:
+    repertoire_id:
+      type: string
+      nullable: true
+      description: >
+          Identifier for the repertoire object. This identifier should be globally unique so that repertoires
+          from multiple studies can be combined together without conflict. The repertoire_id is used to link
+          other AIRR data to a Repertoire. Specifically, the Rearrangements Schema includes repertoire_id for
+          referencing the specific Repertoire for that Rearrangement.
+      title: Repertoire ID
+    repertoire_name:
+      type: string
+      nullable: true
+      description: Short generic display name for the repertoire
+      title: Repertoire name
+    repertoire_description:
+      type: string
+      nullable: true
+      description: Generic repertoire description
+      title: Repertoire description
+    study:
+      type: object
+      required:
+        - vdjserver_uuid
+      properties:
+        vdjserver_uuid:
+          description: link to object in Tapis Meta
+          type: string
+          nullable: true
+    subject:
+      type: object
+      required:
+        - vdjserver_uuid
+      properties:
+        vdjserver_uuid:
+          description: link to object in Tapis Meta
+          type: string
+          nullable: true
+    sample:
+      type: array
+      nullable: false
+      items:
+        type: object
+        required:
+          - vdjserver_uuid
+        properties:
+          vdjserver_uuid:
+            description: link to object in Tapis Meta
+            type: string
+            nullable: true
+    data_processing:
+      type: array
+      nullable: false
+      items:
+        type: object
+        required:
+          - vdjserver_uuid
+        properties:
+          vdjserver_uuid:
+            description: link to object in Tapis Meta
+            type: string
+            nullable: true
+
+AIRRRepertoire:
+  description: VDJServer extension of the AIRR Repertoire object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/Repertoire'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/Subject'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/CommonExtension'
+
+RepertoireGroup:
+  description: VDJServer extension of the AIRR RepertoireGroup object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/RepertoireGroup'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/CommonExtension'
+
+Subject:
+  description: VDJServer extension of the AIRR Subject object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/Subject'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/Subject'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/CommonExtension'
+
+SampleProcessing:
+  description: VDJServer extension of the AIRR SampleProcessing object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/SampleProcessing'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/SampleProcessing'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/CommonExtension'
+
+DataProcessing:
+  description: VDJServer extension of the AIRR DataProcessing object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/DataProcessing'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/DataProcessing'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        vdjserver:
+          $ref: '#/CommonExtension'
+
+# TODO: still in development
+DataFileExtension:
+  type: object
+  allOf:
+    - description: VDJServer extension of AIRR DataFile
+      type: object
+      properties:
+        "vdjserver:app:igblast":
+          description: Username that owns the project.
+          type: string
+
+DataFile:
+  description: VDJServer DataFile which is an extension of the AIRR DataFile object.
+  allOf:
+    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/release-1.5/specs/airr-schema-openapi3.yaml#/DataFile'
+#    - $ref: 'https://raw.githubusercontent.com/airr-community/airr-standards/airr-js/specs/airr-schema-openapi3.yaml#/DataFile'
+    - description: VDJServer object container for extra attributes.
+      type: object
+      properties:
+        VDJServer:
+          $ref: '#/DataFileExtension'
+
+###################################################
+#
+# Tapis Meta
+#
+# Database storage of objects using the Tapis Meta API.
+# Tapis Meta V2 design, name/value structure for an object,
+# which we will keep for Tapis Meta V3.
+#
+
+# Generic Tapis Meta API object
+# everything except value which is customized for each object type
+TapisMetaObject:
+  description: Tapis Meta API object.
+  type: object
+  required:
+    - uuid
+    - name
+  properties:
+    uuid:
+      description: object identifier
+      type: string
+      nullable: false
+      default: ""
+    associationIds:
+      description: object associations
+      type: array
+      nullable: true
+      items:
+        type: string
+    owner:
+      description: Tapis object owner
+      type: string
+      nullable: true
+    created:
+      description: object creation timestamp
+      type: string
+      format: date-time
+      nullable: true
+    lastUpdated:
+      description: object last update timestamp
+      type: string
+      format: date-time
+      nullable: true
+    name:
+      description: object type name
+      type: string
+      nullable: false
+#    value:
+#      description: object value, can be a nested JSON object
+#      type: object
+#      nullable: false
+
+###################################################
+#
+# Data objects
+#
+# standard objects and their associated Tapis Meta
+# object if they are being stored in the database.
+#
+# These are objects that tend to be shared/common
+# between the GUI and the backend services.
+#
+
+#
+# User account related objects
+#
+
+UserAccount:
+  description: User account and profile.
+  type: object
+  required:
+    - username
+    - password
+    - email
+  additionalProperties: false
+  properties:
+    username:
+      type: string
+    password:
+      type: string
+      nullable: true
+    email:
+      type: string
+      nullable: true
+    isEmailVerified:
+      type: boolean
+      default: false
+    firstName:
+      type: string
+      nullable: true
+    lastName:
+      type: string
+      nullable: true
+    city:
+      type: string
+      nullable: true
+    state:
+      type: string
+      nullable: true
+    country:
+      type: string
+      nullable: true
+    affiliation:
+      type: string
+      nullable: true
+    disableJobEmail:
+      type: boolean
+      default: false
+    disableUserEmail:
+      type: boolean
+      default: false
+    disablePublishEmail:
+      type: boolean
+      default: false
+    showArchivedProjects:
+      type: boolean
+      default: false
+
+UserAccountMeta:
+  description: Tapis Meta object for a VDJServer user account.
+  x-vdjserver:
+    tapis_name: profile
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer user account.
+      type: object
+      properties:
+        value:
+          $ref: '#/UserAccount'
+
+UserVerification:
+  description: User account verification.
+  type: object
+  required:
+    - username
+    - isVerified
+  properties:
+    username:
+      type: string
+    isVerified:
+      type: boolean
+
+UserVerificationMeta:
+  description: Tapis Meta object for a VDJServer user verification.
+  x-vdjserver:
+    tapis_name: userVerification
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer user verification.
+      type: object
+      properties:
+        value:
+          $ref: '#/UserVerification'
+
+Feedback:
+  description: User feedback.
+  type: object
+  required:
+    - feedbackMessage
+  properties:
+    feedbackMessage:
+      type: string
+    username:
+      type: string
+    email:
+      type: string
+
+FeedbackMeta:
+  description: Tapis Meta object for VDJServer user feedback.
+  x-vdjserver:
+    tapis_name: feedback
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer user feedback.
+      type: object
+      properties:
+        value:
+          $ref: '#/Feedback'
+
+#
+# Project related objects
+#
+
+# Project is defined above with the AIRR objects
+PrivateProjectMeta:
+  description: Tapis Meta object for a VDJServer private project.
+  x-vdjserver:
+    tapis_name: private_project
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer private project.
+      type: object
+      properties:
+        value:
+          $ref: '#/Project'
+        permission:
+          type: array
+          items:
+            $ref: '#/ProjectPermission'
+
+ArchivedProjectMeta:
+  description: Tapis Meta object for a VDJServer archived project.
+  x-vdjserver:
+    tapis_name: archived_project
+  allOf:
+    - $ref: '#/PrivateProjectMeta'
+    - description: VDJServer archived project is still a private project.
+
+PublicProjectMeta:
+  description: Tapis Meta object for a VDJServer public project.
+  x-vdjserver:
+    tapis_name: public_project
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer public project.
+      type: object
+      properties:
+        value:
+          $ref: '#/Project'
+
+RepertoireMeta:
+  description: VDJServer Repertoire in normal form, just vdjserver uuids link them
+  x-vdjserver:
+    tapis_name: repertoire
+  type: object
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer repertoire.
+      type: object
+      properties:
+        value:
+          $ref: '#/Repertoire'
+
+RepertoireGroupMeta:
+  description: Tapis Meta object for a VDJServer repertoire group
+  x-vdjserver:
+    tapis_name: repertoire_group
+  type: object
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer repertoire group.
+      type: object
+      properties:
+        value:
+          $ref: '#/RepertoireGroup'
+
+SubjectMeta:
+  description: Tapis Meta object for a VDJServer subject.
+  x-vdjserver:
+    tapis_name: subject
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer subject.
+      type: object
+      properties:
+        value:
+          $ref: '#/Subject'
+
+SampleProcessingMeta:
+  description: Tapis Meta object for a VDJServer sample processing.
+  x-vdjserver:
+    tapis_name: sample_processing
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer sample processing.
+      type: object
+      properties:
+        value:
+          $ref: '#/SampleProcessing'
+
+DataProcessingMeta:
+  description: Tapis Meta object for a VDJServer data processing.
+  x-vdjserver:
+    tapis_name: data_processing
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer data processing.
+      type: object
+      properties:
+        value:
+          $ref: '#/DataProcessing'
+
+#
+# File-related objects
+#
+
+ProjectFile:
+  description: VDJServer project files.
+  type: object
+  required:
+    - path
+  properties:
+    path:
+      type: string
+    name:
+      type: string
+    size:
+      type: number
+    readDirection:
+      type: string
+      nullable: true
+    fileType:
+      type: number
+    tags:
+      type: string
+      nullable: true
+    url:
+      type: string
+    pairedReadMetadataUuid:
+      type: string
+      nullable: true
+    readMetadataUuid:
+      type: string
+      nullable: true
+    qualityScoreMetadataUuid:
+      type: string
+      nullable: true
+# TODO: other properties to consider/integrate
+#   "type": 22,
+#   "name": 30949,
+#   "mimeType": 264,
+#   "fileCategory": 245,
+#   "fileType": 30731,
+#   "isDeleted": 30923,
+#   "privateAttributes": 231,
+#   "publicAttributes": 30779,
+#   "metadataVersion": 13,
+#   "isForwardRead": 27,
+#   "isReverseRead": 27,
+#   "readDirection": 30585,
+#   "qualityScoreMetadataUuid": 522,
+#   "pairedReadMetadataUuid": 5276,
+#   "isPlaceholder": 40,
+#   "readMetadataUuid": 29,
+#   "lastUpdated": 47,
+#   "fileTypeName": 47
+
+ProjectFileMeta:
+  description: Tapis Meta object for a VDJServer project file.
+  x-vdjserver:
+    tapis_name: project_file
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer project file.
+      type: object
+      properties:
+        value:
+          $ref: '#/ProjectFile'
+
+DeletedFileMeta:
+  description: Tapis Meta object for a VDJServer deleted project file.
+  x-vdjserver:
+    tapis_name: deleted_file
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer project file.
+      type: object
+      properties:
+        value:
+          $ref: '#/ProjectFile'
+
+# TODO: maybe an extension of ProjectFile?
+ProjectJobFile:
+  description: VDJServer files generated from jobs.
+  type: object
+  required:
+    - projectUuid
+    - jobUuid
+    - name
+  allOf:
+    - description: VDJServer project file.
+      type: object
+      properties:
+        project_uuid:
+          type: string
+        analysis_uuid:
+          type: string
+        job_uuid:
+          type: string
+    - $ref: '#/ProjectFile'
+
+# ProjectJobFile:
+#   description: VDJServer files generated from jobs.
+#   type: object
+#   required:
+#     - projectUuid
+#     - jobUuid
+#     - name
+#   properties:
+#     projectUuid:
+#       type: string
+#     jobUuid:
+#       type: string
+#     name:
+#       type: string
+#   allOf:
+#     - description: VDJServer project file.
+#       type: object
+      
+#     - $ref: '#/ProjectFile'
+
+
+ProjectJobFileMeta:
+  description: Tapis Meta object for a VDJServer project job file.
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer project job file.
+      type: object
+      properties:
+        value:
+          $ref: '#/ProjectJobFile'
+
+ProjectJob:
+  description: Job information associated with a VDJServer project.
+  type: object
+  required:
+    - projectUuid
+    - jobUuid
+  properties:
+    projectUuid:
+      type: string
+    jobUuid:
+      type: string
+    displayName:
+      type: string
+      nullable: true
+    secondaryInputs:
+      type: string
+      nullable: true
+
+ProjectJobMeta:
+  description: Tapis Meta object for a VDJServer project job.
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer project job.
+      type: object
+      properties:
+        value:
+          $ref: '#/ProjectJob'
+
+# TODO: Same as ProjectJob but has been archived
+# ProjectJobArchive:
+
+#
+# Objects for management of AIRR Data Commons
+#
+
+ADCRepository:
+  description: VDJServer object to represent an ADC repository, this includes VDJServer.
+  type: object
+  required:
+    - repository_id
+    - title
+    - server_host
+    - base_url
+  properties:
+    repository_id:
+      description: Unique repository identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    disable:
+      description: Disable the repository
+      type: boolean
+      default: true
+    title:
+      description: Display name of repository
+      example: VDJServer
+      type: string
+    server_host:
+      description: Hostname for repository
+      example: vdjserver.org
+      type: string
+      nullable: false
+    base_url:
+      description: Base ADC URL for repository
+      example: /airr/v1
+      type: string
+      nullable: false
+    enable_cache:
+      description: ADC download caching for the repository
+      type: boolean
+      default: false
+    supports_async:
+      description: Repository supports AIRR ADC ASYNC API extension
+      type: boolean
+      default: false
+    async_host:
+      description: Hostname for repository
+      example: vdjserver.org
+      type: string
+    async_base_url:
+      description: Base ADC ASYNC API URL for repository
+      example: /airr/async/v1
+      type: string
+      nullable: false
+    enable_statistics_cache:
+      description: Statistics cache enable/disable for the repository
+      type: boolean
+      default: false
+
+ADCRepositorySet:
+  description: Set of ADC repositories.
+  type: object
+  required:
+    - adc
+  properties:
+    adc:
+      description: List of production repositories. Each entry is keyed by the repository id.
+      type: object
+      additionalProperties:
+        $ref: "#/ADCRepository"
+    staging:
+      description: List of staging repositories. Each entry is keyed by the repository id.
+      type: object
+      additionalProperties:
+        $ref: "#/ADCRepository"
+
+ADCRepositorySetMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_system_repositories
+    singleton: true
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer project.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCRepositorySet'
+
+ADCAsyncQuery:
+  description: VDJServer object to represent an ADC asynchronous query.
+  type: object
+  required:
+    - endpoint
+    - collection
+    - status
+    - body
+  properties:
+    endpoint:
+      description: API endpoint for query
+      type: string
+      nullable: false
+      enum:
+        - rearrangement
+    collection:
+      description: Mongodb collection identifier
+      type: string
+      nullable: false
+    lrq_id:
+      description: Tapis LRQ identifier
+      type: string
+      nullable: true
+    status:
+      description: Query status
+      type: string
+      enum:
+        - PENDING
+        - SUBMITTED
+        - COUNTING
+        - PROCESSING
+        - FINISHED
+        - ERROR
+        - EXPIRED
+    message:
+      description: Informational message
+      type: string
+      nullable: true
+    notification:
+      description: Query status notification URL
+      type: object
+      nullable: true
+      properties:
+        url:
+          type: string
+          nullable: false
+        method:
+          type: string
+          nullable: false
+          enum:
+            - GET
+            - POST
+    body:
+      description: Incoming query body
+      type: object
+    raw_file:
+      description: Tapis file containing raw JSON data from LRQ query
+      type: string
+      nullable: true
+    final_file:
+      description: Filename for final processed data to be downloaded by user
+      type: string
+      nullable: true
+    download_url:
+      description: Tapis postit URL for user to download final file
+      type: string
+      nullable: true
+    postit_id:
+      description: Tapis postit identifier for download file
+      type: string
+      nullable: true
+    count_lrq_id:
+      description: Tapis LRQ identifier for estimated count of query result
+      type: string
+      nullable: true
+    estimated_count:
+      description: Estimated count of query result. Used to enforce maximum result size.
+      type: number
+      nullable: true
+# OBSOLETE: these were used in early versions of async API implementation
+#  "query_aggr": 3740,
+#  "count_aggr": 3740,
+
+ADCAsyncQueryMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: async_query
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Async query status.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCAsyncQuery'
+
+ADCQueryFilter:
+  type: object
+  description: Query Filter Expression for the ADC API.
+  properties:
+    body:
+      description: ADC query filter body
+      type: object
+  x-vdjserver:
+    tapis_name: adc_query_filter
+
+#
+# ADC project load objects
+#
+ADCProjectLoad:
+  description: ADC project load.
+  type: object
+  required:
+    - projectUuid
+    - collection
+  properties:
+    projectUuid:
+      description: VDJServer uuid for project/study
+      type: string
+      nullable: false
+    collection:
+      description: Collection suffix.
+      type: string
+      nullable: false
+    shouldLoad:
+      description: Flag to indicate project should be loaded into ADC.
+      type: boolean
+      default: true
+    isLoaded:
+      description: Flag to indicate project is completely loaded into ADC.
+      type: boolean
+      default: false
+    repertoireMetadataLoaded:
+      description: Flag to indicate if repertoire data has finished loading into ADC.
+      type: boolean
+      default: false
+    rearrangementDataLoaded:
+      description: Flag to indicate if rearrangement data has finished loading into ADC.
+      type: boolean
+      default: false
+
+ADCProjectLoadMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_project_load
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Project load into ADC.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCProjectLoad'
+
+ADCRearrangementLoad:
+  description: ADC rearrangement load.
+  type: object
+  required:
+    - projectUuid
+    - repertoire_id
+    - collection
+  properties:
+    projectUuid:
+      description: VDJServer uuid for project/study
+      type: string
+      nullable: false
+    repertoire_id:
+      description: Repertoire identifier for the rearrangements.
+      type: string
+      nullable: false
+    collection:
+      description: Collection suffix.
+      type: string
+      nullable: false
+    isLoaded:
+      description: Flag to indicate rearrangements are completely loaded into ADC.
+      type: boolean
+      default: false
+    load_set:
+      description: Last rearrangement set that was loaded.
+      type: number
+
+ADCRearrangementLoadMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_rearrangement_load
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Load rearrangements for project into ADC.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCRearrangementLoad'
+
+#
+# ADC download cache objects
+#
+ADCDownloadCache:
+  description: ADC download cache status.
+  type: object
+  required:
+    - enable_cache
+  properties:
+    enable_cache:
+      description: Global enable/disable of the cache. Local settings for a service may override this.
+      type: boolean
+      default: false
+
+ADCDownloadCacheMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_cache
+    singleton: true
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: ADC download cache for study.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCDownloadCache'
+
+ADCDownloadCacheStudy:
+  description: ADC download cache status for a study in a repository
+  type: object
+  required:
+    - repository_id
+    - study_id
+  properties:
+    repository_id:
+      description: Repository identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    study_id:
+      description: Study identifier
+      example: PRJNA578389
+      type: string
+      nullable: false
+    should_cache:
+      description: Flag to enable/disable caching of this study.
+      type: boolean
+      default: false
+    is_cached:
+      description: Is this study cached.
+      type: boolean
+      default: false
+    archive_file:
+      anyOf:
+        - description: File path to the cached study
+          type: string
+          nullable: true
+        - description: Array of file paths to the cached study
+          type: array
+          items:
+            type: string
+    download_url:
+      anyOf:
+        - description: Tapis Postits public URL to download cache file
+          type: string
+          nullable: true
+        - description: Array of Tapis Postits public URLs to download cache files
+          type: array
+          items:
+            type: string
+
+ADCDownloadCacheStudyMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_cache_study
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: ADC download cache for study.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCDownloadCacheStudy'
+
+ADCDownloadCacheRepertoire:
+  description: ADC download cache status for a repertoire within a study
+  type: object
+  required:
+    - repository_id
+    - study_id
+    - repertoire_id
+  properties:
+    repository_id:
+      description: Repository identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    study_id:
+      description: Study identifier
+      example: PRJNA578389
+      type: string
+      nullable: false
+    repertoire_id:
+      description: Repertoire identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    should_cache:
+      description: Flag to enable/disable caching of this repertoire.
+      type: boolean
+      default: false
+    is_cached:
+      description: Is this repertoire cached.
+      type: boolean
+      default: false
+    archive_file:
+      description: File path to the cached repertoire
+      type: string
+      nullable: true
+    download_url:
+      description: Tapis Postits public URL to download cache file
+      type: string
+      nullable: true
+
+ADCDownloadCacheRepertoireMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: adc_cache_repertoire
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: ADC download cache for repertoire.
+      type: object
+      properties:
+        value:
+          $ref: '#/ADCDownloadCacheRepertoire'
+
+#
+# Objects for management of Statistics Cache (Stats API)
+#
+
+StatisticsCache:
+  description: Statistics cache status.
+  type: object
+  required:
+    - enable_cache
+    - jobs_submitted
+  properties:
+    enable_cache:
+      description: Global enable/disable of the cache. Local settings for a service may override this.
+      type: boolean
+      default: false
+    jobs_submitted:
+      description: Flag indicating if statistics jobs are being run.
+      type: boolean
+      default: false
+
+StatisticsCacheMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: statistics_cache
+    singleton: true
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Statistics cache global status.
+      type: object
+      properties:
+        value:
+          $ref: '#/StatisticsCache'
+
+StatisticsCacheStudy:
+  description: Statistics cache status for a study in a repository
+  type: object
+  required:
+    - repository_id
+    - study_id
+    - download_cache_id
+  properties:
+    repository_id:
+      description: Repository identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    study_id:
+      description: Study identifier
+      example: PRJNA578389
+      type: string
+      nullable: false
+    download_cache_id:
+      description: Identifer to ADC download cache entry for study
+      type: string
+      nullable: false
+    should_cache:
+      description: Flag to enable/disable caching of this study.
+      type: boolean
+      default: false
+    is_cached:
+      description: Is this study cached.
+      type: boolean
+      default: false
+
+StatisticsCacheStudyMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: statistics_cache_study
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Statistics cache for study.
+      type: object
+      properties:
+        value:
+          $ref: '#/StatisticsCacheStudy'
+
+StatisticsCacheRepertoire:
+  description: Statistics cache status for a repertoire within a study
+  type: object
+  required:
+    - repository_id
+    - study_id
+    - repertoire_id
+    - download_cache_id
+  properties:
+    repository_id:
+      description: Repository identifier
+      example: vdjserver
+      type: string
+      nullable: false
+    study_id:
+      description: Study identifier
+      example: PRJNA624801
+      type: string
+      nullable: false
+    repertoire_id:
+      description: Repertoire identifier
+      example: "6977444714660359700-242ac117-0001-012"
+      type: string
+      nullable: false
+    download_cache_id:
+      description: Identifer to ADC download cache entry for repertoire
+      type: string
+      nullable: false
+    should_cache:
+      description: Flag to enable/disable caching of this repertoire.
+      type: boolean
+      default: false
+    is_cached:
+      description: Is this repertoire cached.
+      type: boolean
+      default: false
+    statistics_job_id:
+      description: Tapis jobs identifier for statistics calculation
+      type: string
+    timeMultiplier:
+      description: Estimated run time multiplier for statistics job
+      type: number
+
+StatisticsCacheRepertoireMeta:
+  description: Tapis Meta object.
+  x-vdjserver:
+    tapis_name: statistics_cache_repertoire
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: Statistics cache for repertoire.
+      type: object
+      properties:
+        value:
+          $ref: '#/StatisticsCacheRepertoire'
+
+#
+# TODO: analysis tasks/workflows/jobs still being designed
+#
+
+ProvDocument:
+  description: PROV document
+  type: object
+  properties:
+    entity:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/entity'
+    agent:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/agent'
+    activity:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          "prov:startTime":
+            type: string
+            format: date-time
+          "prov:endTime":
+            type: string
+            format: date-time
+          "vdjserver:job":
+            type: string
+          "vdjserver:job:timeMultiplier":
+            type: integer
+            default: 1
+          "vdjserver:job:nodeCount":
+            type: integer
+            default: 1
+        additionalProperties:
+          $ref: "https://www.w3.org/submissions/prov-json/schema#/definitions/attributeValues"
+    used:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/usage'
+    wasAttributedTo:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/attribution'
+    wasAssociatedWith:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/association'
+    wasDerivedFrom:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/derivation'
+    wasGeneratedBy:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/generation'
+
+TaskDocument:
+  description: Task document
+  type: object
+  properties:
+    uses:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/usage'
+    isAttributedTo:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/attribution'
+    isAssociatedWith:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/association'
+    isDerivedFrom:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/derivation'
+    isGeneratedBy:
+      type: object
+      additionalProperties:
+        $ref: 'https://www.w3.org/submissions/prov-json/schema#/definitions/generation'
+
+AnalysisProperties:
+  description: Analysis Properties
+  type: object
+  properties:
+    workflow_name:
+      description: The workflow analysis name
+      type: string
+    workflow_mode:
+      description: The workflow analysis mode
+      type: string
+    workflow_description:
+      description: The workflow description
+      type: string
+    status:
+      description: Status of the analysis tasks
+      type: string
+      default: SUBMITTED
+      enum:
+        - SUBMITTED
+        - STARTED
+        - FINISHED
+        - CANCELLED
+        - FAILED
+    status_message:
+      description: Status message
+      type: string
+    primary:
+      description: primary analysis for AIRR data processing
+      type: boolean
+      default: false
+
+AnalysisDocument:
+  description: Analysis workflow document
+  type: object
+  allOf:
+    - $ref: '#/ProvDocument'
+    - $ref: '#/TaskDocument'
+    - $ref: '#/AnalysisProperties'
+
+AnalysisDocumentMeta:
+  description: Tapis Meta object for a VDJServer analysis document.
+  x-vdjserver:
+    tapis_name: analysis_document
+  allOf:
+    - $ref: '#/TapisMetaObject'
+    - description: VDJServer analysis document.
+      type: object
+      properties:
+        value:
+          $ref: '#/AnalysisDocument'
+
+VDJPipeInputs:
+  description: VDJPipe Inputs
+  type: object
+  properties:
+    JobFiles:
+      type: array
+      items:
+        type: string
+    SequenceFASTQ:
+      type: array
+      items:
+        type: string
+    SequenceFASTA:
+      type: array
+      items:
+        type: string
+    SequenceQualityFiles:
+      type: array
+      items:
+        type: string
+    SequenceForwardPairedFiles:
+      type: array
+      items:
+        type: string
+    SequenceReversePairedFiles:
+      type: array
+      items:
+        type: string
+    ForwardPrimerFile:
+      type: string
+    ReversePrimerFile:
+      type: string
+    BarcodeFile:
+      type: string
+
+VDJPipeParameters:
+  description: VDJPipe Parameters
+  type: object
+  properties:
+    Workflow:
+      description: The workflow analysis mode
+      type: string
+      default: paired
+    SecondaryInputsFlag:
+      type: boolean
+      default: false
+    MergeMinimumScore:
+      type: integer
+      default: 10
+    PreFilterStatisticsFlag:
+      type: boolean
+      default: true
+    FilterFlag:
+      type: boolean
+      default: true
+    MinimumAverageQuality:
+      type: number
+      default: 35
+    MinimumLength:
+      type: integer
+      default: 200
+    MaximumHomopolymer:
+      type: integer
+      default: 10
+    PostFilterStatisticsFlag:
+      type: boolean
+      default: true
+    Barcode:
+      type: boolean
+      default: false
+    BarcodeFile:
+      type: string
+    BarcodeLocation:
+      type: string
+      enum:
+        - forward
+        - reverse
+    BarcodeDiscard:
+      type: boolean
+      default: true
+    BarcodeGenerateHistogram:
+      type: boolean
+      default: false
+    BarcodeMaximumMismatches:
+      type: integer
+      default: 0
+    BarcodeTrim:
+      type: boolean
+      default: true
+    BarcodeSearchWindow:
+      type: integer
+      default: 30
+    BarcodeSplitFlag:
+      type: boolean
+      default: true
+    ForwardPrimer:
+      type: boolean
+      default: false
+    ForwardPrimerFile:
+      type: string
+    ForwardPrimerMaximumMismatches:
+      type: integer
+      default: 0
+    ForwardPrimerTrim:
+      type: boolean
+      default: true
+    ForwardPrimerSearchWindow:
+      type: integer
+      default: 30
+    ReversePrimer:
+      type: boolean
+      default: false
+    ReversePrimerFile:
+      type: string
+    ReversePrimerMaximumMismatches:
+      type: integer
+      default: 0
+    ReversePrimerTrim:
+      type: boolean
+      default: true
+    ReversePrimerSearchWindow:
+      type: integer
+      default: 30
+    FindUniqueFlag:
+      type: boolean
+      default: true
+
+PrestoInputs:
+  description: pRESTO Inputs
+  type: object
+  properties:
+    JobFiles:
+      type: array
+      items:
+        type: string
+    SequenceFiles:
+      type: array
+      items:
+        type: string
+    SequenceForwardPairedFiles:
+      type: array
+      items:
+        type: string
+    SequenceReversePairedFiles:
+      type: array
+      items:
+        type: string
+    ForwardPrimerFile:
+      type: string
+    ReversePrimerFile:
+      type: string
+    BarcodeFile:
+      type: string
+
+PrestoParameters:
+  description: pRESTO Parameters
+  type: object
+  properties:
+    Workflow:
+      description: The workflow analysis mode
+      type: string
+      enum:
+        - paired
+        - single
+      default: paired
+    SequenceFileTypes:
+      description: The sequence file type
+      type: string
+      enum:
+        - illumina
+      default: illumina
+    PreFilterStatisticsFlag:
+      type: boolean
+      default: true
+    FilterFlag:
+      type: boolean
+      default: true
+    MinimumQuality:
+      type: number
+      default: 35
+    MinimumLength:
+      type: integer
+      default: 200
+    PostFilterStatisticsFlag:
+      type: boolean
+      default: true
+
+    Barcode:
+      type: boolean
+      default: false
+    BarcodeFile: # individual input files are parameters too
+      type: string
+    BarcodeMaxError:
+      type: number
+      default: 0.1
+    BarcodeStartPosition:
+      type: integer
+      default: 0
+    BarcodeSplitFlag:
+      type: boolean
+      default: true
+
+    UMIConsensus:
+      type: boolean
+      default: false
+    UMIMaxError:
+      type: number
+      default: 0.1
+    UMIMaxGap:
+      type: number
+      default: 0.5
+    UMIMinFrequency:
+      type: number
+      default: 0.6
+
+    ForwardPrimerFlag:
+      type: boolean
+      default: false
+    ForwardPrimer:
+      type: string
+      enum:
+        - score
+        - align
+        - none
+      default: none
+    ForwardPrimerFile:  # individual input files are parameters too
+      type: string
+    ForwardPrimerUMI:
+      type: boolean
+      default: false
+    ForwardPrimerMaxError:
+      type: number
+      default: 0.3
+    ForwardPrimerMaxLength:
+      type: integer
+      default: 50
+    ForwardPrimerStartPosition:
+      type: integer
+      default: 0
+
+    ReversePrimerFlag:
+      type: boolean
+      default: false
+    ReversePrimer:
+      type: string
+      enum:
+        - score
+        - align
+        - none
+      default: none
+    ReversePrimerFile:  # individual input files are parameters too
+      type: string
+    ReversePrimerUMI:
+      type: boolean
+      default: false
+    ReversePrimerMaxError:
+      type: number
+      default: 0.3
+    ReversePrimerMaxLength:
+      type: integer
+      default: 50
+    ReversePrimerStartPosition:
+      type: integer
+      default: 0
+
+    FindUniqueFlag:
+      type: boolean
+      default: true
+    FindUniqueMaxNucleotides:
+      type: integer
+      default: 20
+    FindUniqueExclude:
+      type: boolean
+      default: true
+
+TakaraBioUMIInputs:
+  description: Takara Bio UMI Inputs
+  type: object
+  properties:
+    JobFiles:
+      type: array
+      items:
+        type: string
+    SequenceFiles:
+      type: array
+      items:
+        type: string
+    SequenceForwardPairedFiles:
+      type: array
+      items:
+        type: string
+    SequenceReversePairedFiles:
+      type: array
+      items:
+        type: string
+
+TakaraBioUMIParameters:
+  description: Takara Bio UMI Parameters
+  type: object
+  properties:
+    Workflow:
+      description: The workflow analysis mode
+      type: string
+      enum:
+        - takara_bio_umi_human_ig
+        - takara_bio_umi_human_tr
+        - takara_bio_umi_mouse_ig
+        - takara_bio_umi_mouse_tr
+      default: takara_bio_umi_human_tr
+    SequenceFileTypes:
+      description: The sequence file type
+      type: string
+      enum:
+        - illumina
+      default: illumina
+    PreFilterStatisticsFlag:
+      type: boolean
+      default: true
+    FilterFlag:
+      type: boolean
+      default: true
+    MinimumQuality:
+      type: number
+      default: 35
+    MinimumLength:
+      type: integer
+      default: 200
+    PostFilterStatisticsFlag:
+      type: boolean
+      default: true
+
+    ReversePrimerFlag:
+      type: boolean
+      default: true
+    ReversePrimerMaxError:
+      type: number
+      default: 0.5
+    ReversePrimerMaxLength:
+      type: integer
+      default: 70
+
+    UMIConsensus:
+      type: boolean
+      default: true
+    UMIMaxError:
+      type: number
+      default: 0.1
+    UMIMaxGap:
+      type: number
+      default: 0.5
+    UMIMinFrequency:
+      type: number
+      default: 0.6
+
+    FindUniqueFlag:
+      type: boolean
+      default: true
+    FindUniqueMaxNucleotides:
+      type: integer
+      default: 0
+    FindUniqueExclude:
+      type: boolean
+      default: true
+
+
+IgBlastInputs:
+  description: IgBlast Input Files
+  type: object
+  required:
+    - JobFiles
+    - query
+  properties:
+    JobFiles:
+      type: array
+      nullable: true
+      items:
+        type: string
+      description: Optional configuration or metadata files for the job
+    query:
+      type: array
+      nullable: true
+      items:
+        type: string
+      description: Input sequence files (FASTA or FASTQ) for IgBlast analysis
+
+IgBlastParameters:
+  description: IgBlast Runtime Parameters
+  type: object
+  required:
+    - species
+    - locus
+    - germline_db
+  properties:
+    species:
+      type: string
+      description: Species name used for IgBlast alignment (e.g., human, mouse)
+      default: human
+      enum:
+        - human
+        - mouse
+        - macaque
+    strain:
+      type: string
+      description: Optional strain information if available
+    locus:
+      type: string
+      description: Gene locus type for alignment
+      default: IG
+      enum:
+        - IG
+        - TR
+    germline_db:
+      type: string
+      description: Selected germline database for alignment.
+      default: db.2026.01.12
+
+
+CellRangerInputs:
+  description: Cell Ranger Input Files
+  type: object
+  required:
+    - ForwardPairedFiles
+    - ReversePairedFiles
+  properties:
+    ForwardPairedFiles:
+      type: array
+      items:
+        type: string
+    ReversePairedFiles:
+      type: array
+      items:
+        type: string
+
+CellRangerParameters:
+  description: Cell Ranger Runtime Parameters
+  type: object
+  required:
+    - species
+    - locus
+    - germline_db_TR
+    - germline_db_IG
+  properties:
+    species:
+      type: string
+      description: Species name used for IgBlast alignment (e.g., human, mouse)
+      default: human
+      enum:
+        - human
+        - mouse
+        - macaque
+    strain:
+      type: string
+      description: Optional strain information if available
+    germline_db_TR:
+      type: string
+      description: Selected TCR germline database for alignment.
+      default: db.2019.01.23
+    germline_db_IG:
+      type: string
+      description: Selected IG germline database for alignment.
+      default: db.2026.01.12
+
+TILDEInputs:
+  description: TILDE Inputs
+  type: object
+  properties:
+    JobFiles:
+      type: array
+      items:
+        type: string
+    AIRRFiles:
+      type: array
+      items:
+        type: string
+
+TILDEParameters:
+  description: TILDE Parameters
+  type: object
+  properties:
+    species:
+      type: string
+      description: Species for input data
+      default: human
+      enum:
+        - human
+    strain:
+      type: string
+      description: Optional strain information if available
+    locus:
+      type: string
+      description: Gene locus for input data
+      enum:
+        - IG
+        - TR
+    germline_db:
+      type: string
+      description: Germline database for input data
+    ReceptorMatchFlag:
+      type: boolean
+      default: true
+    EpitopeMatchFlag:
+      type: boolean
+      default: true
+
+RepCalcInputs:
+  description: RepCalc Inputs
+  type: object
+  properties:
+    JobFiles:
+      type: array
+      items:
+        type: string
+    AIRRFiles:
+      type: array
+      items:
+        type: string
+
+RepCalcParameters:
+  description: RepCalc Parameters
+  type: object
+  properties:
+    species:
+      type: string
+      description: Species name used by IgBlast alignment (e.g., human, mouse)
+      default: human
+      enum:
+        - human
+        - mouse
+        - macaque
+    strain:
+      type: string
+      description: Optional strain information if available
+    locus:
+      type: string
+      description: Gene locus type used by IgBlast alignment
+      enum:
+        - IG
+        - TR
+    germline_db:
+      type: string
+      description: Selected germline database for alignment.
+      default: db.2026.01.12
+    GeneSegmentFlag:
+      type: boolean
+      default: true
+    CDR3Flag:
+      type: boolean
+      default: true
+    DiversityFlag:
+      type: boolean
+      default: true
+    ClonalFlag:
+      type: boolean
+      default: true
+    LineageFlag:
+      type: boolean
+      default: true
+    MutationalFlag:
+      type: boolean
+      default: true
+
+#
+# Objects for server side generation of visualizations
+#
+
+VisualizationDocument:
+  description: Task document
+  type: object
+  properties:
+    name:
+      description: visualization name
+      type: string
+      enum:
+        - heartbeat
+        - mutational_hedgehog
+    repertoire_id:
+      type: string
+    repertoire_group_id:
+      type: string
+    processing_stage:
+      type: string
+
+
+###################################################
+#
+# Web API objects for requests and responses
+#
+###################################################
+
+BasicResponse:
+    description: Basic response object
+    type: object
+    properties:
+        status:
+            type: boolean
+        message:
+            type: string
+
+InfoObject:
+  description: Provides information about the API service and/or response
+  type: object
+  properties:
+    title:
+      type: string
+    version:
+      type: string
+    description:
+      type: string
+    contact:
+      type: object
+      properties:
+        name:
+          type: string
+        url:
+          type: string
+        email:
+          type: string
+    license:
+      type: object
+      properties:
+        name:
+          type: string
+        url:
+          type: string
+        copyright:
+          type: string
+
+Recaptcha:
+  description: Google recaptcha response.
+  type: object
+  required:
+    - g-recaptcha-response
+  properties:
+    g-recaptcha-response:
+      type: string
+      description: The recaptcha response
+
+UserAccountCreation:
+  description: Account creation with user and recaptcha objects
+  allOf:
+    - $ref: '#/UserAccount'
+    - $ref: '#/Recaptcha'
+
+FilePostitRequest:
+  description: Postit request for file
+  type: object
+  required:
+    - path
+  properties:
+    path:
+      description: file path
+      type: string
+    allowedUses:
+      description: file path
+      type: number
+    validSeconds:
+      description: file path
+      type: number
+
+ProjectPermissionRequest:
+  description: Project permissions request for user
+  required:
+    - username
+  allOf:
+    - type: object
+      properties:
+        username:
+          description: user to apply permissions
+          type: string
+
+FeedbackRequest:
+  description: Feedback message.
+  type: object
+  properties:
+    feedback:
+      type: string
+      description: message content
+
+PublicFeedbackRequest:
+  description: Public feedback message.
+  allOf:
+    - $ref: '#/Feedback'
+    - $ref: '#/Recaptcha'
+    - type: object
+      properties:
+        email:
+          description: User email.
+          type: string
+
+ErrorTelemetry:
+  description: Error telemetry.
+  type: object
+  properties:
+    project_uuid:
+      type: string
+    job_uuid:
+      type: string
+    filename:
+      type: string
+    method:
+      type: string
+    error:
+      type: string
+    view:
+      type: string
+    browser:
+      type: string
+    os:
+      type: string
+
+AnalysisRequest:
+  description: Request execution of an analysis workflow
+  allOf:
+    - $ref: '#/AnalysisDocument'
+
+VisualizationRequest:
+  description: Request generation of data visualization
+  type: object
+  required:
+    - visualization
+  properties:
+    visualization:
+      $ref: '#/VisualizationDocument'
+
+ADCRepositoryUpdateRequest:
+  description: API request object
+  type: object
+  required:
+    - repository_set
+    - repository
+  properties:
+    repository_set:
+      type: string
+    repository:
+      $ref: '#/ADCRepository'
