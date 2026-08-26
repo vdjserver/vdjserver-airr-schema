@@ -2,2826 +2,2826 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/about/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCAsyncQuery/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCAsyncQueryEndpointEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCAsyncQueryMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCAsyncQueryStatusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCache/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCacheMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCacheRepertoire/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCacheRepertoireMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCacheStudy/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCDownloadCacheStudyMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCProjectLoad/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCProjectLoadMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCQueryFilter/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRearrangementLoad/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRearrangementLoadMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRepository/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRepositorySet/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRepositorySetMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ADCRepositoryUpdateRequest/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AIRRRepertoire/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AIRRStandards/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AlleleDescription/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AnalysisDocument/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AnalysisDocumentMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AnalysisProperties/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AnalysisPropertiesStatusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AnalysisRequest/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AncestryPopulationOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AntigenSourceSpeciesOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/AntigenTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ArchivedProjectMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/BasicResponse/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/BodyDetails/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Boolean/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Cell/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CellProcessing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CellSpeciesOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CellSubsetOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CellTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Clone/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CloneClassEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CollectionLocationOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CommonExtension/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CompleteSequencesEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Contributor/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ContributorContribution/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/CurationalTagsEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Curie/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DataFile/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DataFileExtension/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DataProcessing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DataProcessingMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Date/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DateOrDatetime/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Datetime/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Decimal/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DegreeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DeletedFileMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DeletedGene/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DerivationEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Diagnosis/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DiseaseDiagnosisOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/DocumentedAllele/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Double/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Expression/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Feedback/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/FeedbackMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/FeedbackRequest/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/FilePostitRequest/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/FileTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Float/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/GeneOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Genotype/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/GenotypeSet/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/GermlineSet/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/InferenceProcessEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/InferenceTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Integer/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/JCodonFrameEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Jsonpath/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Jsonpointer/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/KeywordsStudyEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/LibraryGenerationMethodEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/LigandTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/LocationBirthOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/LocusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/LocusSpeciesOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MHCAllele/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MHCGenotype/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MHCGenotypeSet/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MhcClassEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MhcGene1Ontology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/MhcGene2Ontology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Ncname/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Node/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/NodeClassEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/NodeTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Nodeidentifier/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/NotificationDetails/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/NotificationDetailsMethodEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/NucleicAcidProcessing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Objectidentifier/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ObservationTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PCRTarget/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PairedReadDirectionEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PcrTargetLocusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PermissionDetails/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PhysicalLinkageEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PhysicalQuantity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PhysicalUnitOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PrivateProjectMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Project/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectExtension/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectFile/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectFileMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectJob/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectJobFile/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectJobFileMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectJobMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProjectPermission/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ProvDocument/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/PublicProjectMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Reactivity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ReadDirectionEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RearrangedSequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Rearrangement/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RearrangementTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Recaptcha/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Receptor/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ReceptorTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ReceptorVariableDomain1LocusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ReceptorVariableDomain2LocusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Repertoire/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireExtension/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireFilter/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireGroup/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireGroupMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RepertoireTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/RoleEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Sample/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SampleProcessing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SampleProcessingMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SequenceDelineationV/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SequenceTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SequencingData/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SequencingRun/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SexEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Sparqlpath/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SpeciesOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SpeciesSubgroupTypeEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCache/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCacheMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCacheRepertoire/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCacheRepertoireMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCacheStudy/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatisticsCacheStudyMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StatusEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StrandEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/String/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Study/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StudyDetails/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StudyExtension/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/StudyTypeOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Subject/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SubjectDetails/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SubjectGenotype/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/SubjectMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TapisMetaObject/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TaskDocument/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TemplateClassEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Time/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TimeInterval/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TimePoint/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TimeQuantity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TimeUnitOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/TissueOntology/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UndocumentedAllele/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UnrearrangedSequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Uri/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/Uriorcurie/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UserAccount/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UserAccountMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UserVerification/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/UserVerificationMeta/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/VDJServer/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/VDJServerStandards/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/VisualizationDocument/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/VisualizationDocumentNameEnum/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/VisualizationRequest/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/acknowledgements/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/activity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/adc/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/adc_publish_date/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/adc_update_date/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/affiliation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/affiliation_department/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/age/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/age_event/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/agent/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/aliases/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/aligned_sequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/alignment_labels/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_description_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_description_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_descriptions/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_designation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_similarity_cluster_designation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allele_similarity_cluster_member_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/allowedUses/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/analysis_provenance_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/analysis_uuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/anatomic_site/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ancestry_population/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/antigen/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/antigen_source_species/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/antigen_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/archive_file/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/associationIds/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/async_base_url/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/async_host/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/base_url/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/biomaterial_provider/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/body/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_alignment_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_alignment_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_call/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_cigar/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_germline_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_germline_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_identity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_score/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/c_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr1/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr1_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr1_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr1_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr2/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr2_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr2_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr2_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr3/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr3_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr3_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cdr3_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_isolation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_label/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_number/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_phenotype/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_processing_protocol/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_quality/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_species/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_storage/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_subset/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cell_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/cells_per_reaction/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/chromosome/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/city/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/clone_class/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/clone_count/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/clone_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/coding_sequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/collapsing_method/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/collection/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/collection_location/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/collection_time_point_relative/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/complete_sequences/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/complete_vdj/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/consensus_count/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/contributions/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/contributor_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/contributors/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/count_lrq_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/country/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/created/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/curation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/curational_tags/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_alignment_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_alignment_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_call/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_cigar/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_frame/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_germline_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_germline_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_identity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_score/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d2_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_alignment_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_alignment_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_call/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_cigar/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_frame/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_germline_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_germline_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_identity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_rs_3_prime_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_rs_3_prime_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_rs_5_prime_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_rs_5_prime_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_score/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/d_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/data_processing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/data_processing_files/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/data_processing_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/data_processing_protocols/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/degree/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/deleted_genes/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/delineation_scheme/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/deposited_version/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/derivation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/diagnosis/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/diagnosis_timepoint/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disable/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disableJobEmail/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disablePublishEmail/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disableUserEmail/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disease_diagnosis/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disease_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disease_stage/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/disease_state_sample/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/displayName/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/documented_alleles/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/download_cache_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/download_url/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/duplicate_count/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/email/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/enable_cache/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/enable_statistics_cache/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/endpoint/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/entity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/estimated_count/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ethnicity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/expression_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/feedback/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/feedbackMessage/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fileType/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/file_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/filename/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/filter/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/final_file/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/firstName/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/forward_pcr_primer_target_location/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/functional/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr1/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr1_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr1_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr1_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr2/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr2_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr2_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr2_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr3/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr3_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr3_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr3_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr4/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr4_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr4_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/fwr4_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/g_recaptcha_response/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gene/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gene_designation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gene_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gene_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/genotype/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/genotype_class_list/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_database/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_set_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_set_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/germline_set_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gff_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gff_seqid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/gff_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/grants/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/immunogen/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/inclusion_exclusion_criteria/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/index_filename/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/index_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/inference_process/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/inference_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/inferred_ancestor/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/intervention/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isAssociatedWith/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isAttributedTo/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isDerivedFrom/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isEmailVerified/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isGeneratedBy/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isLoaded/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/isVerified/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/is_cached/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_alignment_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_alignment_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_call/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_cdr3_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_cigar/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_codon_frame/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_donor_splice/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_frameshift/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_germline_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_germline_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_identity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_rs_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_rs_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_score/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/j_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/jobUuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/job_uuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/jobs_submitted/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/junction/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/junction_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/junction_aa_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/junction_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/keywords/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/keywords_study/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/label/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/lastName/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/lastUpdated/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/leader_1_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/leader_1_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/leader_2_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/leader_2_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/library_generation_kit_version/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/library_generation_method/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/library_generation_protocol/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/ligand_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/link_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/linked_subjects/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/load_set/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/location_birth/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/locus/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/locus_species/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/lrq_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/medical_history/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/message/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/method/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_allele_1/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_allele_2/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_alleles/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_class/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_gene_1/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_gene_2/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_genotype_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_genotype_list/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_genotype_set/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_genotype_set_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/mhc_genotyping_method/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/n1_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/n2_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/n3_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/node_class/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/node_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/node_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/nodes/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/notification/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np1/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np1_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np1_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np2/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np2_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np2_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np3/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np3_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/np3_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/observation_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/orcid_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/owner/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p3d2_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p3d_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p3v_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p5d2_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p5d_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/p5j_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/pairedReadMetadataUuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/paired_filename/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/paired_read_direction/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/paired_read_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/paired_reads_assembly/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/paralogs/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/password/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/patch_no/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/path/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/pcr_target/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/pcr_target_locus/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/peptide_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/peptide_sequence_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/peptide_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/permission/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/phasing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/physical_linkage/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/physical_quantity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/physical_unit/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/postit_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/primary/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/primary_annotation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/primer_match_cutoffs/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/prior_therapies/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/processing_stage/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/productive/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/projectUuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/project_uuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/property/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/property_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/pub_ids/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/quality/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/qualityScoreMetadataUuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/quality_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/quality_thresholds/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/race/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/raw_file/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_method/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_readout/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_refs/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_unit/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reactivity_value/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/read/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/readDirection/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/readMetadataUuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/read_direction/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/read_length/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/rearranged_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/rearrangementDataLoaded/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/rearrangement_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_genotype_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_genotype_set/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_genotype_set_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_hash/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_variable_domain_1_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_variable_domain_1_locus/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_variable_domain_2_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptor_variable_domain_2_locus/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/receptors/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reference_set_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/release_date/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/release_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/release_version/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoireMetadataLoaded/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_group_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_group_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_group_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoire_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repertoires/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repository/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repository_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repository_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repository_ref/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/repository_set/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/rev_comp/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/reverse_pcr_primer_target_location/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/role/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sample/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sample_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sample_processing_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sample_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/secondaryInputs/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/seed_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_delineation_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequence_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_data_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_facility/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_files/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_kit/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_platform/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_run_date/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sequencing_run_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/server_host/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/sex/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/shouldLoad/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/should_cache/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/showArchivedJobs/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/showArchivedProjects/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/single_cell/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/size/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/software_versions/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/species/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/species_subgroup/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/species_subgroup_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/staging/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/state/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/statistics_job_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/status/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/status_message/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/stop_codon/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/strain_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/strand/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study_group_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study_title/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/study_type/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/subgroup_designation/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/subject/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/subject_id/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/supports_async/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/synthetic/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/tags/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/template_amount/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/template_class/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/template_quality/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/timeMultiplier/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_label/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_max/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_min/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_point/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_quantity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_unit/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/time_value/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/tissue/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/tissue_processing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/title/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/total_reads_passing_qc_filter/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/tree/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/umi_count/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/unaligned_sequence/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/undocumented_alleles/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/unrearranged_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/url/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/used/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/username/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/uses/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/utr_5_prime_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/utr_5_prime_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/uuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_alignment_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_alignment_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_call/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_cigar/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_frameshift/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_gene_delineations/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_germline_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_germline_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_germline_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_germline_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_identity/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_rs_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_rs_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_score/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_sequence_alignment/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_sequence_alignment_aa/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_sequence_end/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_sequence_start/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/v_support/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/validSeconds/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/value/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/vdjserver-airr-schema/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/vdjserver/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/vdjserver_uuid/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/version/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/virtual_pairing/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/visualization/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/vj_in_frame/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/wasAssociatedWith/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/wasAttributedTo/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/wasDerivedFrom/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/wasGeneratedBy/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/workflow_description/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/workflow_mode/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/workflow_name/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
     <url>
          <loc>https://vdjserver.github.io/vdjserver-airr-schema/elements/write/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-26</lastmod>
     </url>
 </urlset>
