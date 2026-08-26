@@ -14,7 +14,9 @@ help:
 	@echo "------------------------------------------------------------"
 	@echo ""
 	@echo "Using DB: $(PG_DISPLAY_CONN)"
-	@echo "Host location of ak-data-import folder: $(IMPORT_DATA)"
+	@echo "Host location of import folder: $(IMPORT_DATA)"
+	@echo ""
+	@echo "make docker             -- Build docker image"
 	@echo ""
 	@echo "Utility functions (outside docker)"
 	@echo "make convert-airr-schema         -- convert airr schema to linkml"
@@ -23,6 +25,11 @@ help:
 	@echo "generate-schema 		-- generate linkml schema"
 	@echo ""
 	@echo "------------------------------------------------------------"
+
+# build docker image
+docker:
+	@echo "Building docker image"
+	docker build . -t vdjserver/airr-schema:$(POSTGRES_DB)
 
 convert-airr-schema:
 	python3 src/vdjserver_airr_schema/scripts/airr2linkml.py \

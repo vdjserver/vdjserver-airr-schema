@@ -4,7 +4,7 @@
 
 LinkML representation of AIRR Standard schema for VDJServer data modeling and database generation.
 
-## Documentation Website
+## Schema Documentation Website
 
 [https://vdjserver.github.io/vdjserver-airr-schema](https://vdjserver.github.io/vdjserver-airr-schema)
 
@@ -22,6 +22,28 @@ LinkML representation of AIRR Standard schema for VDJServer data modeling and da
       Python datamodel
 * [tests/](tests/) - Python tests
   * [data/](tests/data) - Example data
+
+## Source Code Configuration
+
+This repository contains submodules. When doing a `git clone`, those submodules are
+not automatically populated, and an additional command is required.
+
+There is an environment file to hold secrets like database password and other configuration information.
+
+```
+git clone https://github.com/vdjserver/vdjserver-airr-schema.git
+cd vdjserver-airr-schema
+git submodule update --init --recursive
+
+# setup database connection and path info
+cp .env.defaults .env
+nano .env
+```
+
+## Makefile commands
+
+Running `make` without a target will display the help message with list of commands. LinkML uses
+`just` for running various commands
 
 ## Developer Tools
 
